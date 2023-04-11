@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+h1:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+
+body{
+    background-color: hsl(217, 54%, 11%);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container{
+    background-color: hsl(216, 50%, 16%);
+    margin: 3rem;
+    width: 20rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding: 1.2rem;
+    gap: 1rem;
+    border-radius: 10px;
+    color:hsl(0, 0%, 100%);
+}
+
+
+.infoNft{
+    font-size: 1.2rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.nftDescription{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.webBy{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.created{
+    font-size: 1rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.2rem;
+}
+
+.creator{
+    color: hsl(0, 0%, 100%);
+}
+
+.creator:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.imgAvatar{
+    width: 2.5rem;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);;
+}
+
+.attribution { 
+    font-size: 1rem;
+    margin: 1rem;
+    text-align: center;
+    color:hsl(0, 0%, 100%); ;
+}
+
+.nft{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.infoNft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.valueNft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    color:hsl(178, 100%, 50%);
+}
+
+.promoNft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.iconEth{
+    width: 0.7rem;
+    height: auto;
+}
+
+.iconClock{
+    width: 1rem;
+    height: auto;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (min-w){
+
+}
